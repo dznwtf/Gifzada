@@ -3,7 +3,7 @@
 # Configuração
 Configure o config.json.example e renomeie para config.json
 Na pasta events, abra o ready.js e coloque o ID do Servidor
-Também em events, abra o guildMemberAdd.js e configure de acordo com o seu Servidor
+, Também em events, abra o guildMemberAdd.js e configure de acordo com o seu Servidor
 
 # Instalação 
 Requer Node v16.13.0 (LTS) 
