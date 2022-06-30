@@ -11,7 +11,8 @@ Requer Node v16.13.0 (LTS)
 Abra o Terminal e digite npm i
 
 # Inicialização
-Após ter configurado tudo, abra o seu terminal e digite node app.js
+Após ter configurado tudo, abra o seu terminal e digite 
+node app.js
 
 
 
