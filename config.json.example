@@ -1,0 +1,7 @@
+{
+    "token":"", // token do bot
+    "pfpid":"", // id do random icon
+    "gifid":"", // id do random gif
+    "bannerid":"", // id do canal de random banner
+    "guildid":"" // id do servidor
+}
