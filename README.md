@@ -7,6 +7,7 @@ Na pasta events, abra o ready.js e coloque o ID do Servidor
 
 # Instalação 
 Requer Node v16.13.0 (LTS) 
+
 Abra o Terminal e digite npm i
 
 # Inicialização
