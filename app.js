@@ -52,6 +52,7 @@ client.on("ready", async () => {
         console.error(error);
     }
 });
+/*
 process.on('multipleResolves', (type, reason, promise) => {
     console.log(`🚫 Erro Detectado\n\n` + type, promise, reason)
 });
@@ -64,7 +65,7 @@ process.on('uncaughtException', (error, origin) => {
 process.on('uncaughtExceptionMonitor', (error, origin) => {
     console.log(`🚫 Erro Detectado:\n\n` + error, origin)
 });
-
+*/
 
  //////////////    ANT MENSAGENS EM CHAT DE IMAGENS  //////////////
 
