@@ -17,7 +17,7 @@ Para instalar as dependências do projeto, abra o terminal e digite o seguinte c
 # Inicialização
 Após ter realizado todas as configurações necessárias, abra o seu terminal e execute o seguinte comando para iniciar o bot:
 
-node app.js
+```node app.js```
 
 
 # Dúvidas
