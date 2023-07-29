@@ -1,9 +1,9 @@
-const { Client, MessageEmbed } = require("discord.js");
+const { Client, EmbedBuilder } = require("discord.js");
 const { pfpid, gifid, bannerid, guildid } = require("../config.json");
 const axios = require("axios");
 
 module.exports = async (client) => {
-  const servidor = client.guilds.cache.get("id do sv"); // ID DO SERVIDOR
+  const servidor = client.guilds.cache.get("id do servidor"); // ID DO SERVIDOR
 
   if (!client.guilds.cache.get(guildid)) return;
 
@@ -29,7 +29,7 @@ module.exports = async (client) => {
               ?.get(bannerid)
               ?.send({
                 embeds: [
-                  new MessageEmbed()
+                  new EmbedBuilder()
                     .setAuthor({
                       name: servidor.name,
                       iconURL: servidor.iconURL({ dynamic: true }) || undefined,
@@ -48,7 +48,7 @@ module.exports = async (client) => {
               ?.get(bannerid)
               ?.send({
                 embeds: [
-                  new MessageEmbed()
+                  new EmbedBuilder()
                     .setAuthor({
                       name: servidor.name,
                       iconURL: servidor.iconURL({ dynamic: true }) || undefined,
@@ -73,7 +73,7 @@ module.exports = async (client) => {
         ?.get(gifid)
         ?.send({
           embeds: [
-            new MessageEmbed()
+            new EmbedBuilder()
               .setAuthor({
                 name: servidor.name,
                 iconURL: servidor.iconURL({ dynamic: true }) || undefined,
@@ -91,7 +91,7 @@ module.exports = async (client) => {
         ?.get(pfpid)
         ?.send({
           embeds: [
-            new MessageEmbed()
+            new EmbedBuilder()
               .setAuthor({
                 name: servidor.name,
                 iconURL: servidor.iconURL({ dynamic: true }) || undefined,
