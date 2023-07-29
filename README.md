@@ -12,7 +12,7 @@ Certifique-se de ter o Node.js na versão 16.13.0 (LTS) ou superior instalado.
 
 Para instalar as dependências do projeto, abra o terminal e digite o seguinte comando:
 
-npm i
+``` npm i ```
 
 # Inicialização
 Após ter realizado todas as configurações necessárias, abra o seu terminal e execute o seguinte comando para iniciar o bot:
